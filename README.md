@@ -14,6 +14,8 @@ Si al momento de construir se presenta algún error se recomienda usar algún ad
 
 Los ambientes disponibles pueden ser encontrados en el archivo `.env-cmdrc.json`
 
+Para iniciar el proyeto de manera local es necesario instalar las dependencias con el comando `yarn install` o `npm install`
+
 ## Scripts disponibles
 
 En este proyecto podrás ejecutar los siguientes scripts.
