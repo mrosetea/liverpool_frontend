@@ -1,0 +1,19 @@
+.Search {
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.Input {
+    border: none;
+    width: 100%;
+}
+
+.Input:focus {
+    outline: none;
+}

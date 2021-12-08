@@ -1,0 +1,39 @@
+.BackgroundOpacity {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: .5;
+  z-index: 999
+}
+
+.ModalBag {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ModalBagContainer {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+
+    .ExitButtonContainer {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    .Content {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+  }
+}

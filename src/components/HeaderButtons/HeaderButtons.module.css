@@ -1,0 +1,37 @@
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: .875rem Roboto;
+    text-decoration: inherit;
+    text-align: center;
+}
+
+.BagContainer {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Bag {
+    position: absolute;
+}
+
+.Badge {
+    margin-top: 6px;
+    position: absolute;
+    color: #E10098;
+    font-size: .8rem;
+    font-weight: bold;
+
+}
